@@ -5,16 +5,23 @@
     font-family: popines,serif;
 }
 
+
 .card{
     width: 100%;
     max-width: 480px;
     color: #ffff;
     background:linear-gradient(135deg,#00feba,#5b548a);
     text-align: center;
-    margin:70px auto ;
+    margin:20px auto ;
     border-radius: 20px;
     padding: 40px 35px;
 
+}
+.head{
+    margin-block: 30px;
+    text-align: center;
+    color: #302a57;
+    font-size: 33px;
 }
 
 /* search section */
@@ -90,4 +97,13 @@
     font-size: 25px;
     font-weight: 600;
     margin-top: -10px;
+}
+/* error */
+.error{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(253, 21, 21);
+    display: none;
 }
